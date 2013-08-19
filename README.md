@@ -1,4 +1,4 @@
-# grunt-dalekjs
+# grunt-dalek
 
 > Run browser tests with dalak
 
