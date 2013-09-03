@@ -3,6 +3,7 @@
  */
 
 'use strict';
+var util = require('util');
 
 module.exports = function(grunt) {
 
@@ -42,13 +43,12 @@ module.exports = function(grunt) {
         /**
          * displays the output and error streams via the parent process.
          */
-        child.stdout.on('data', function(buf) {
-          var output = String(buf);
-          grunt.log.writeln(output);
+        child.stdout.on('data', function(data) {
+          util.print(data);
         });
 
-        child.stderr.on('data', function(buf) {
-          grunt.log.writeln(String(buf));
+        child.stderr.on('data', function(data) {
+          util.print(data);
         });
 
       }, function () {
