@@ -1,7 +1,7 @@
 {
   "name": "grunt-dalek",
   "description": "Run browser tests with dalakjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/bauschan/grunt-dalek",
   "author": {
     "name": "Peter Foerger",
