@@ -22,7 +22,7 @@
  */
 
 /**
- * > Run browser tests with dalak
+ * Run browser tests with dalak
  * 
  * ## Getting Started
  * This plugin requires Grunt `~0.4.1`
@@ -91,6 +91,7 @@
  * ### Configuration Example
  * 
  * Basic example of a Grunt config containing the dalek task.
+ * 
  * ```javascript
  * grunt.initConfig({
  *   dalek: {
