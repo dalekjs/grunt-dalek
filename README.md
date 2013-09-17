@@ -37,31 +37,32 @@ grunt.initConfig({
 
 ### Options
 
-#### options.htmlReporter
+#### options.dalekfile
 Type: `Boolean`
 Default: `true`
 
-Invoke the html reporter
+Grunt should load the config options from your Dalekfile
 
-#### options.logLevel
-Type: `Integer`
-Default: `2`
+#### options.browser
+Type: `Array`
+Default: `['phatnomjs']`
 
-Log level, controls the amount of information outputted to the console (0 to 5)
+The browsers you would like to test
+Note: For other browsers than PhantomJS, you need to have the Dalek browser plugin installed.
 
-### options.noColors
-Type: `Boolean`
-Default: `false`
+#### options.reporter
+Type: `Array`
+Default: `null`
 
-Disable colorized output in the console
+The reporters you would like to invoke
+Note: For other reporters than the grunt console output, you need to have the corresponding Dalek reporter plugin installed.
 
-### options.noSymbols
-Type: `Boolean`
-Default: `false`
+#### options.advanced
+Type: `Object`
+Default: `null`
 
-Disable UTF-8 symbols in the console
-
-
+All the options you else would define in your Dalekfile.
+This overwrites the contents of your Dalekfile.
 
 ## Examples
 
@@ -102,22 +103,21 @@ dalek: {
 ```js
 dalek: {
     options: {
-      /**
-       * Invoke the html reporter
-       */
-      htmlReporter: true,
-      /**
-       * Log level, controls the amount of information outputted to the console (0 to 5)
-       */
-      logLevel: 2,
-      /**
-       * Disable colorized output in the console
-       */
-      noColors: false,
-      /**
-       * Disable UTF-8 symbols in the console
-       */
-      noSymbols: false
+      // invoke phantomjs, chrome & chrome canary
+      browser: ['phantomjs', 'chrome', 'chrome:canary'],
+      // generate an html & an jUnit report
+      reporter: ['html', 'junit'],
+      // don't load config from an Dalekfile
+      dalekfile: false,
+      // specify advanced options (that else would be in your Dalekfile)
+      advanced: {
+        // specify a port for chrome
+        browsers: [{
+          chrome: {
+            port: 4000
+          }
+        }]
+      }
     }
 }
 ```
