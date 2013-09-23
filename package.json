@@ -2,7 +2,7 @@
   "name": "grunt-dalek",
   "description": "Run browser tests with dalakjs",
   "homepage": "https://github.com/dalekjs/grunt-dalek",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": {
     "name": "Peter Foerger",
     "email": "peter.foerger@dkd.de"
