@@ -45,7 +45,7 @@ Grunt should load the config options from your Dalekfile
 
 #### options.browser
 Type: `Array`
-Default: `['phatnomjs']`
+Default: `['phantomjs']`
 
 The browsers you would like to test
 Note: For other browsers than PhantomJS, you need to have the Dalek browser plugin installed.
