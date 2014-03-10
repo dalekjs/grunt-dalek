@@ -7,10 +7,12 @@
     "name": "Peter Foerger",
     "email": "peter.foerger@dkd.de"
   },
-  "contributors": [{
-    "name": "Sebastian Golasch",
-    "email": "public@asciidisco.com"
-  }],  
+  "contributors": [
+    {
+      "name": "Sebastian Golasch",
+      "email": "public@asciidisco.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/dalekjs/grunt-dalek.git"
@@ -32,26 +34,26 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "dalekjs": "~0.0.2"
+    "dalekjs": "~0.0.8"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~0.4.3",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-yuidoc": "~0.5.0",
-    "grunt-contrib-compress": "~0.5.1",
-    "grunt-mocha-test": "~0.7.0",
-    "grunt-complexity": "~0.1.3",
-    "grunt-plato": "~0.2.1",
-    "grunt-documantix": "~0.0.3",
-    "grunt-include-replace": "~1.1.0",
-    "grunt-conventional-changelog": "~1.0.0",
-    "grunt-concurrent": "~0.3.1",    
-    "grunt-bump": "~0.0.11",
-    "load-grunt-tasks": "~0.1.0",
-    "time-grunt": "~0.1.1",    
-    "blanket": "~1.1.5",
-    "chai": "~1.8.0"    
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-yuidoc": "~0.5.1",
+    "grunt-contrib-compress": "~0.7.0",
+    "grunt-mocha-test": "~0.9.4",
+    "grunt-complexity": "~0.1.4",
+    "grunt-plato": "~1.0.0",
+    "grunt-documantix": "~0.0.4",
+    "grunt-include-replace": "~1.2.0",
+    "grunt-conventional-changelog": "~1.1.0",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-bump": "~0.0.13",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.2.10",
+    "blanket": "~1.1.6",
+    "chai": "~1.9.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
