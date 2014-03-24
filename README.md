@@ -2,6 +2,20 @@
 
 > Run browser tests with dalak
 
+[![Build Status](https://travis-ci.org/dalekjs/grunt-dalek.png)](https://travis-ci.org/dalekjs/grunt-dalek)
+[![Build Status](https://drone.io/github.com/dalekjs/grunt-dalek/status.png)](https://drone.io/github.com/dalekjs/grunt-dalek/latest)
+[![Dependency Status](https://david-dm.org/dalekjs/grunt-dalek.png)](https://david-dm.org/dalekjs/grunt-dalek)
+[![devDependency Status](https://david-dm.org/dalekjs/grunt-dalek/dev-status.png)](https://david-dm.org/dalekjs/grunt-dalek#info=devDependencies)
+[![NPM version](https://badge.fury.io/js/grunt-dalek.png)](http://badge.fury.io/js/grunt-dalek)
+[![Coverage](http://dalekjs.com/package/grunt-dalek/master/coverage/coverage.png)](http://dalekjs.com/package/grunt-dalek/master/coverage/index.html)
+[![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
+[![Stories in Ready](https://badge.waffle.io/dalekjs/grunt-dalek.png?label=ready)](https://waffle.io/dalekjs/grunt-dalek)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dalekjs/grunt-dalek/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+[![NPM](https://nodei.co/npm/grunt-dalek.png)](https://nodei.co/npm/grunt-dalek/)
+[![NPM](https://nodei.co/npm-dl/grunt-dalek.png)](https://nodei.co/npm/grunt-dalek/)
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 
@@ -121,7 +135,3 @@ dalek: {
     }
 }
 ```
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dalekjs/grunt-dalek/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
